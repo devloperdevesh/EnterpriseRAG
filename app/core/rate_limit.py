@@ -1,7 +1,5 @@
-import logging
+from fastapi import Request, HTTPException
 
-def setup_logging():
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s - %(levelname)s - %(message)s"
-    )
+async def simple_rate_limit(request: Request):
+    # Placeholder for future Redis based rate limiting
+    return True
