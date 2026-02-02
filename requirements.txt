@@ -4,7 +4,6 @@ uvicorn[standard]
 pydantic
 pydantic-settings
 python-jose
-passlib[bcrypt]
 
 sqlalchemy
 psycopg2-binary>=2.9
@@ -22,3 +21,5 @@ faiss-cpu==1.13.2
 torch==2.7.1
 pydantic[email]
 
+passlib==1.7.4
+bcrypt==3.2.2
