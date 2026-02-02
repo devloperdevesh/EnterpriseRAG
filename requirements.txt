@@ -7,6 +7,7 @@ python-jose
 passlib[bcrypt]
 
 sqlalchemy
+psycopg2-binary>=2.9
 asyncpg
 redis
 
@@ -20,3 +21,4 @@ sentence-transformers==2.7.0
 faiss-cpu==1.13.2
 torch==2.7.1
 pydantic[email]
+
